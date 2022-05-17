@@ -12,11 +12,11 @@ function Footer() {
 
   return (
     <footer
-      className="border-top border-bottom border-danger border-2 d-flex justify-content-between fs-2 my-2"
+      className="border-top border-white border-2 d-flex justify-content-between align-items-center fs-2"
       id="footer"
     >
-      <p>Copyright {year}</p>
-      <div>
+      <span className="border">Copyright {year}</span>
+      <div className="border">
         <span className="fs-5">Reach me at:</span>
         <span>
           <a href="mailto:jcomp_03@yahoo.com" style={{ color: "white" }}>

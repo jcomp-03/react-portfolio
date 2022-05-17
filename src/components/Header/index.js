@@ -1,12 +1,17 @@
 import React from "react";
 import NavigationBar from "../NavigationBar";
 
-function Header() {
+function Header(props) {
+  const { navSections = [], currentSection, setCurrentSection } = props;
   return (
-    <div className="border border-danger border-3 d-flex justify-content-between">
+    <header className="d-flex justify-content-between">
       <h1>James Compagnoni</h1>
-      <NavigationBar />
-    </div>
+      <NavigationBar
+        navSections={navSections}
+        currentSection={currentSection}
+        setCurrentSection={setCurrentSection}
+      />
+    </header>
   );
 }
 
