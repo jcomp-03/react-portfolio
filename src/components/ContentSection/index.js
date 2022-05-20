@@ -1,10 +1,13 @@
 import React from "react";
 
-function ContentSection() {
+function ContentSection(props) {
+  const { currentSection } = props;
+
   return (
-    <main className="border border-success border-2 mh-100">
+    <div className="border border-success border-2 mh-100">
       <div>This text is inside ContentSection</div>
-    </main>
+      <div>More text</div>
+    </div>
   );
 }
 

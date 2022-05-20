@@ -28,7 +28,11 @@ function App() {
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
-      <ContentSection currentSection={currentSection} />
+
+      <main>
+        <ContentSection currentSection={currentSection} />
+      </main>
+      
       <Footer />
     </div>
   );

@@ -1,6 +1,6 @@
 /* eslint-disable no-multi-str */
 import React, { useState } from 'react';
-import PortfolioWork from '../PortfolioWork';
+import Project from '../Project';
 
 function Portfolio() {
     const [works] = useState([
@@ -44,10 +44,12 @@ function Portfolio() {
     <section>
         {
             works.map((work) => (
-                <PortfolioWork work={work} key={work.title} />
+                <Project work={work} key={work.title} />
             ))
         }
     </section>
   );
 }
+
+
 export default Portfolio;

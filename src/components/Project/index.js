@@ -2,7 +2,7 @@
 import React from "react";
 // import photo from '../../assets/small/commercial/0.jpg';
 
-function PortfolioWork({ work, key }) {
+function Project({ work, key }) {
   const {
     title,
     description,
@@ -29,4 +29,4 @@ function PortfolioWork({ work, key }) {
   );
 }
 
-export default PortfolioWork;
+export default Project;

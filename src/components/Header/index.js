@@ -3,6 +3,7 @@ import NavigationBar from "../NavigationBar";
 
 function Header(props) {
   const { navSections = [], currentSection, setCurrentSection } = props;
+
   return (
     <header className="d-flex justify-content-between">
       <h1>James Compagnoni</h1>
