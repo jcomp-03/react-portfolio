@@ -1,14 +1,26 @@
+// import necessary stuff
 import React from "react";
+import AboutMe from "../AboutMe";
+import Portfolio from "../Portfolio";
+import Contact from "../Contact";
+import Resume from "../Resume";
 
 function ContentSection(props) {
   const { currentSection } = props;
-
-  return (
-    <div className="border border-success border-2 mh-100">
-      <div>This text is inside ContentSection</div>
-      <div>More text</div>
-    </div>
-  );
+  // now that ContentSection has the state of currentSection
+  // render/return the appropriate section
+  switch (currentSection.name) {
+    case "About":
+      return <AboutMe />;
+    case "Portfolio":
+      return <Portfolio />;
+    case "Contact":
+      return <Contact />;
+    case "Resume":
+      return <Resume />;
+    default:
+      return <AboutMe />
+  }
 }
 
 export default ContentSection;
