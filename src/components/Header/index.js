@@ -5,7 +5,7 @@ function Header(props) {
   const { navSections = [], currentSection, setCurrentSection } = props;
 
   return (
-    <header className="d-flex justify-content-between">
+    <header className="d-flex justify-content-between" id="header">
       <h1>James Compagnoni</h1>
       <NavigationBar
         navSections={navSections}

@@ -2,7 +2,7 @@
 import React from "react";
 // import photo from '../../assets/small/commercial/0.jpg';
 
-function Project({ work, key }) {
+function Project({ work }) {
   const {
     title,
     description,
@@ -13,15 +13,15 @@ function Project({ work, key }) {
   } = work;
 
   return (
-    <div class="card" style={{ width: "18rem;" }}>
-      <img src={imageUrlPath} class="card-img-top" alt={description}/>
-      <div class="card-body">
-        <h5 class="card-title">{title}</h5>
-        <p class="card-text">{description}</p>
-        <a href={githubUrlPath} class="btn btn-primary">
+    <div className="card" style={{ width: "18rem" }}>
+      <img src={imageUrlPath} className="card-img-top" alt={description}/>
+      <div className="card-body">
+        <h5 className="card-title">{title}</h5>
+        <p className="card-text">{description}</p>
+        <a href={githubUrlPath} className="btn btn-primary">
           View GitHub repo
         </a>
-        <a href={deployedAppUrlPath} class="btn btn-primary">
+        <a href={deployedAppUrlPath} className="btn btn-primary">
           View Deployment
         </a>
       </div>

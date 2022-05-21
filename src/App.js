@@ -19,17 +19,17 @@ function App() {
     },
   ]);
 
-  const [currentSection, setCurrentSection] = useState(navSections[1]);
+  const [currentSection, setCurrentSection] = useState(navSections[0]);
 
   return (
-    <div className="bg-secondary text-warning">
+    <div className="text-warning" id="app-div">
       <Header
         navSections={navSections}
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
       />
 
-      <main>
+      <main className="container" id="content-container">
         <ContentSection currentSection={currentSection} />
       </main>
       

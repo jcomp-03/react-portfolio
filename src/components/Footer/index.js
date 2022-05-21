@@ -12,11 +12,11 @@ function Footer() {
 
   return (
     <footer
-      className="border-top border-white border-2 d-flex justify-content-between align-items-center fs-2"
+      className="border-top border-white border-4 border-2 d-flex justify-content-between align-items-center fs-2"
       id="footer"
     >
-      <span className="border">Copyright {year}</span>
-      <div className="border">
+      <span className="">Copyright {year}</span>
+      <div className="">
         <span className="fs-5">Reach me at:</span>
         <span>
           <a href="mailto:jcomp_03@yahoo.com" style={{ color: "white" }}>
@@ -44,7 +44,7 @@ function Footer() {
             href="https://github.com/jcomp-03"
             target="_blank"
             rel="noreferrer"
-            style={{ color: "black" }}
+            style={{ color: "white" }}
           >
             <FontAwesomeIcon
               icon={faGithubSquare}
