@@ -5,9 +5,9 @@ import Portfolio from "../Portfolio";
 import Contact from "../Contact";
 import Resume from "../Resume";
 
-function ContentSection(props) {
+function Content(props) {
   const { currentSection } = props;
-  // now that ContentSection has the state of currentSection
+  // now that Content has the state of currentSection
   // render/return the appropriate section
   switch (currentSection.name) {
     case "About":
@@ -23,4 +23,4 @@ function ContentSection(props) {
   }
 }
 
-export default ContentSection;
+export default Content;

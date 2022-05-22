@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header";
-import ContentSection from "./components/ContentSection";
+import Content from "./components/Content";
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
     },
   ]);
 
-  const [currentSection, setCurrentSection] = useState(navSections[0]);
+  const [currentSection, setCurrentSection] = useState(navSections[1]);
 
   return (
     <div className="text-warning" id="app-div">
@@ -30,7 +30,7 @@ function App() {
       />
 
       <main className="container" id="content-container">
-        <ContentSection currentSection={currentSection} />
+        <Content currentSection={currentSection} />
       </main>
       
       <Footer />

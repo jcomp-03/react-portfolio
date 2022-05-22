@@ -15,7 +15,7 @@ function Portfolio() {
         "TMDB server-side API",
         "Browser local storage",
       ],
-      imageUrlPath: "../../../assets/images/imbd.JPG",
+      imageName: "imbd.JPG",
       githubUrlPath: "https://github.com/jcomp-03/IMBD",
       deployedAppUrlPath:
         "https://jcomp-03.github.io/Project-1-RWD-Movie-Search-Platform/",
@@ -32,7 +32,7 @@ function Portfolio() {
         "MySQL",
         "Bulma",
       ],
-      imageUrlPath: "../../../assets/images/party-app.JPG",
+      imageName: "party-app.JPG",
       githubUrlPath: "https://github.com/jcomp-03/OUiii",
       deployedAppUrlPath: "https://ouiii-party.herokuapp.com/%E2%80%8B.git",
     },
@@ -45,29 +45,29 @@ function Portfolio() {
         "Dynamic HTML markup creation",
         "Bootstrap",
       ],
-      imageUrlPath: "../../../assets/images/weather-dashboard.JPG",
+      imageName: "weather-dashboard.JPG",
       githubUrlPath: "https://github.com/jcomp-03/weather-dashboard",
       deployedAppUrlPath: "https://jcomp-03.github.io/weather-dashboard/",
     },
     {
       title: "Team Profile Generator",
       description:
-        "Mobile-responsive movie search platform utilizing The Movie Database\
-             (TMDB) API for querying information about movies and displaying the search results.",
+        "Display the makeup of a team of managers, engineers, and interns.",
       technologiesUsed: [
         "OOP",
         "modern ES6 class syntax",
         "Jest unit testing",
         "Dynamic HTML markup creation via template literals",
       ],
-      imageUrlPath: "../../../assets/images/team-profile-generator.JPG",
+      imageName: "team-profile-generator.JPG",
       githubUrlPath: "https://github.com/jcomp-03/team-profile-generator",
       deployedAppUrlPath: "",
     },
   ]);
 
   return (
-    <section>
+    <section className="row">
+      <h2 className="text-center text-dark mb-4">A selection of my recent projects</h2>
       {works.map((work) => (
         <Project work={work} key={work.title} />
       ))}
