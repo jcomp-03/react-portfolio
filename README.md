@@ -1,7 +1,7 @@
 # My React Portfolio Website
 
 ## Description
-This repo holds my second website portfolio, but this time using my newly-acquired React.js/JSX knowledge. The React website can be found [here](https://jcomp-03.github.io/wk20-react-portfolio/).
+This repo holds my second website portfolio, but this time using my newly-acquired React.js/JSX knowledge. The React website can be found [here](https://jcomp-03.github.io/react-portfolio/).
 
 A more comprehensive view of my work throughout the last 6 months can be found [here](https://jcomp-03.github.io/portfolio/).
 # Getting Started with Create React App
