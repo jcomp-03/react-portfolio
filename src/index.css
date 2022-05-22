@@ -61,6 +61,16 @@ div img {
   left: 1rem;
 }
 
+#section-contact {
+  height: 100%;
+  background-color: black;
+}
+
+#contact-submit-btn .font-awesome-code-icon {
+  color: rgb(255, 193, 7);
+  font-size: 2em;
+}
+
 #footer {
   position: absolute;
   bottom: 0;

@@ -13,7 +13,7 @@ function NavigationBar(props) {
   }, [currentSection]);
 
   return (
-    <nav className="border d-flex">
+    <nav className="d-flex">
       <ul className="list-unstyled align-self-center d-flex my-0">
         {navSections.map((section) => (
           <li
