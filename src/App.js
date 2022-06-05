@@ -19,7 +19,7 @@ function App() {
     },
   ]);
 
-  const [currentSection, setCurrentSection] = useState(navSections[1]);
+  const [currentSection, setCurrentSection] = useState(navSections[0]);
   const [sectionActive, setSectionActive] = useState(false);
 
   return (

@@ -10,7 +10,7 @@ function Resume() {
         Click on that neat FontAwesome icon to find my resume!
       </h1>
       <a
-        href="https://docs.google.com/document/d/1A2oUGUtUcXnG62woIMNxKq_nc_lNltowWDCQ9uOm0ls/edit?usp=sharing"
+        href="https://drive.google.com/file/d/1FYizq3XPfa07roWLmyhHKvzRdvc3JhPT/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
         className="text-center"
