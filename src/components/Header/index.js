@@ -2,7 +2,13 @@ import React from "react";
 import NavigationBar from "../NavigationBar";
 
 function Header(props) {
-  const { navSections = [], currentSection, setCurrentSection } = props;
+  const { 
+    navSections = [], 
+    currentSection, 
+    setCurrentSection, 
+    sectionActive,
+    setSectionActive
+  } = props;
 
   return (
     <header className="d-flex justify-content-between" id="header">
@@ -11,6 +17,8 @@ function Header(props) {
         navSections={navSections}
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
+        sectionActive={sectionActive}
+        setSectionActive={setSectionActive}
       />
     </header>
   );

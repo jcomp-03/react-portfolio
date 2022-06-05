@@ -83,3 +83,7 @@ div img {
   height: 8%;
   background: black;
 }
+
+.navActive {
+  background-color: #f3a847;
+}
