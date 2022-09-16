@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.416df88c.css",
+    "main.js": "/react-portfolio/static/js/main.4fec9d0b.js",
+    "static/js/787.eb98359a.chunk.js": "/react-portfolio/static/js/787.eb98359a.chunk.js",
+    "static/media/christmas-spirit-7-5-aspect-ratio.jpg": "/react-portfolio/static/media/christmas-spirit-7-5-aspect-ratio.576beb068c0710339a23.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.416df88c.css.map": "/react-portfolio/static/css/main.416df88c.css.map",
+    "main.4fec9d0b.js.map": "/react-portfolio/static/js/main.4fec9d0b.js.map",
+    "787.eb98359a.chunk.js.map": "/react-portfolio/static/js/787.eb98359a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.416df88c.css",
+    "static/js/main.4fec9d0b.js"
+  ]
+}
