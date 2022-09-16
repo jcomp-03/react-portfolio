@@ -6,7 +6,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 function AboutMe() {
   return (
     <div
-      className="row border border-info border-4 align-items-center"
+      className="row align-items-center"
       id="about-me"
     >
       <div className="col-6">

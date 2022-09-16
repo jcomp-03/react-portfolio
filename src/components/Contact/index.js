@@ -71,7 +71,7 @@ function Contact() {
         id amet consequat.
       </p>
       <form
-        className="border border-danger border-2"
+        className=""
         id="contact-form"
         onSubmit={handleSubmit}
       >
