@@ -16,7 +16,7 @@ function Project({ work }) {
   // const imageUrl = require("../../assets/images/" + imageName).default;
 
   return (
-    <div className="col-sm-3">
+    <div className="col-sm-3 mb-3">
       <div className="card h-100 mb-5 bg-dark text-white" style={{  }}>
         <img
           src="" 
@@ -30,12 +30,16 @@ function Project({ work }) {
           <div className=""  id="project-button-div">
             <a 
               href={githubUrlPath} 
-              className="w-100 mb-2 btn btn-primary bg-warning text-dark fw-bold">
+              className="w-100 mb-2 btn btn-primary bg-warning text-dark fw-bold"
+              target="_blank"
+              rel="noreferrer">
               View GitHub repo
             </a>
             <a
               href={deployedAppUrlPath}
-              className="w-100 mb-2 btn btn-primary bg-warning text-dark fw-bold">
+              className="w-100 mb-2 btn btn-primary bg-warning text-dark fw-bold"
+              target="_blank"
+              rel="noreferrer">
               View Deployment
             </a>
           </div>

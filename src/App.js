@@ -19,7 +19,8 @@ function App() {
     },
   ]);
 
-  const [currentSection, setCurrentSection] = useState(navSections[1]);
+  const [currentSection, setCurrentSection] = useState(navSections[0]);
+  const [sectionActive, setSectionActive] = useState(false);
 
   return (
     <div className="text-warning" id="app-div">
@@ -27,6 +28,8 @@ function App() {
         navSections={navSections}
         currentSection={currentSection}
         setCurrentSection={setCurrentSection}
+        sectionActive={sectionActive}
+        setSectionActive={setSectionActive}
       />
 
       <main className="container" id="content-container">

@@ -63,6 +63,21 @@ function Portfolio() {
       githubUrlPath: "https://github.com/jcomp-03/team-profile-generator",
       deployedAppUrlPath: "",
     },
+    {
+      title: "Eagle Fitness",
+      description:
+        "Get in shape, schedule your workouts, plan your meals!",
+      technologiesUsed: [
+        "React.js",
+        "modern ES6 class syntax",
+        "GraphQL API",
+        "Node.js/Express.js back-end server",
+      ],
+      imageName: "eagle-fitness.png",
+      githubUrlPath: "https://github.com/jcomp-03/eagle-fitness",
+      deployedAppUrlPath: "https://jlcomp-03-eagle-fitness.herokuapp.com/",
+    }
+    
   ]);
 
   return (
